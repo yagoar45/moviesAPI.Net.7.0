@@ -9,7 +9,11 @@ public class MovieProfile : Profile
 {
     public MovieProfile()
     {
-        // fará a mudança de um DTO para o tipo movie 
+        // possibilita a mudança de um DTO para o tipo específico nos 2 primeiros casos
+        // e o inverso nos 2 últimos  
         CreateMap<CreateMovieDto,Movie>();
+        CreateMap<UpdateMovieDto, Movie>();
+        CreateMap<Movie, UpdateMovieDto>();
+        CreateMap<Movie,ReadMovieDto>();
     }
 }

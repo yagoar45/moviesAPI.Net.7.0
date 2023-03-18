@@ -144,3 +144,9 @@ C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode
 C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\MoviesAPIVscode.xml
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\obj\Debug\net7.0\MoviesAPIVscode.xml
