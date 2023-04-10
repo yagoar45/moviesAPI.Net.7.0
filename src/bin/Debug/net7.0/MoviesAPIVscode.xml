@@ -12,6 +12,66 @@
             <returns>IActionResult</returns>
             <response code="201">Caso inserção seja feita com sucesso</response>
         </member>
+        <member name="T:MoviesAPi.Data.Dtos.CreateMovieDto">
+            <summary>
+            DTO relacionado com a criação do Filme
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Data.Dtos.CreateMovieDto.Title">
+            <summary>
+            Título do filme 
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Data.Dtos.CreateMovieDto.Genre">
+            <summary>
+            Gênero do filme, que deve ter no máximo 50 caracteres 
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Data.Dtos.CreateMovieDto.Duration">
+            <summary>
+            Duração do filme, que deve ser entre 70 a 600 minutos.
+            </summary>
+        </member>
+        <member name="T:MoviesAPi.Data.Dtos.CreateMovieTheaterDto">
+            <summary>
+            DTO relacionado com a criação do MovieTheater
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Data.Dtos.CreateMovieTheaterDto.Name">
+            <summary>
+            propriedade responsável pleo nome do cinema 
+            </summary>
+        </member>
+        <member name="T:MoviesAPi.Models.ReadMovieDto">
+            <summary>
+            DTO para leitura do objeto Filme
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Models.ReadMovieDto.Id">
+            <summary>
+            Identificador único do filme 
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Models.ReadMovieDto.Title">
+            <summary>
+            Título do filme 
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Models.ReadMovieDto.Genre">
+            <summary>
+            Gênero do filme, que deve ter no máximo 50 caracteres 
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Models.ReadMovieDto.Duration">
+            <summary>
+            Duração do filme, que deve ser entre 70 a 600 minutos.
+            </summary>
+        </member>
+        <member name="P:MoviesAPi.Models.ReadMovieDto.ConsultTime">
+            <summary>
+            Mommento que a leitura foi feita do filme 
+            </summary>
+        </member>
         <member name="T:MoviesAPIVscode.Migrations.movieTable">
             <inheritdoc />
         </member>
@@ -22,6 +82,30 @@
             <inheritdoc />
         </member>
         <member name="M:MoviesAPIVscode.Migrations.movieTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPIVscode.Migrations.MovieTheaterandAdress">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPIVscode.Migrations.MovieTheaterandAdress.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPIVscode.Migrations.MovieTheaterandAdress.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPIVscode.Migrations.MovieTheaterandAdress.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MoviesAPIVscode.Migrations.SessionandMovie">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPIVscode.Migrations.SessionandMovie.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPIVscode.Migrations.SessionandMovie.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MoviesAPIVscode.Migrations.SessionandMovie.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>

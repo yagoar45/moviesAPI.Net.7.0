@@ -17,4 +17,11 @@ public class MovieContext : DbContext
 
     // prop que irá retornar os filmes 
     public DbSet<Movie> Movies { get; set; }
+
+    // prop que irá retornar os cinemas
+    public DbSet<MovieTheater> MovieTheaters { get; set; }
+
+    public DbSet<Adress> Adresses { get; set; }
+
+    public DbSet<Session> Sessions { get; set; }
 }

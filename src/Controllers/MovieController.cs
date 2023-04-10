@@ -16,6 +16,7 @@ public class MovieController : Controller
     private MovieContext _context;
 
     // decretando um campo para o automapper e colocando ele no construtor
+    // injetando dependências
     private IMapper _mapper;
     public MovieController(MovieContext context, IMapper mapper)
     {

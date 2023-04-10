@@ -150,3 +150,5 @@ C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode
 C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\MoviesAPIVscode.xml
 C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\obj\Debug\net7.0\MoviesAPIVscode.xml
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\Inteli\Documents\yago-pessoal\projetos pessoais\c#&.Net\MoviesAPIVsCode\moviesAPI.Net.7.0\src\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll

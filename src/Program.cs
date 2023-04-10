@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -9,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // criando conexão com o banco
 var connectionString = builder.Configuration.GetConnectionString("MovieConnection");
 builder.Services.AddDbContext<MovieContext>(opts => 
-opts.UseMySql(connectionString,ServerVersion.AutoDetect(connectionString)));
+opts.UseLazyLoadingProxies().UseMySql(connectionString,ServerVersion.AutoDetect(connectionString)));
 
 // add automapper (passa os valores do DTO para o controlador) para toda aplicação
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());        
@@ -17,6 +18,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // possibilita o uso de JSON´s parciais
 builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddEndpointsApiExplorer();
+
 
 // documentando api no swagger com o título e a versão, define o caminho do xml e permite comentários
 builder.Services.AddSwaggerGen(c => 
